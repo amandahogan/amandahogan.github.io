@@ -4,12 +4,18 @@
     <title>SCOPE</title>
       <meta charset="UTF-8">
       <link href="../styles/main.css" rel="stylesheet" type="text/css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
   </head>
 
   <body>
   <h1>SCOPE</h1>
-  <h2>Technical Blog Part Seven</h2>
-  <h3>Terminology: "Learning the Lingo"</h3>
+  <div class = "container">
+  <h4>Technical Blog Part Seven</h4>
+  <h5>Terminology: "Learning the Lingo"</h5>
 
   <strong>Scope</strong>
   <p> Scope is the context in which values and expressions are "visible," or can be referenced to in your code.</p>
@@ -18,6 +24,8 @@
   <p>Variables and expressions defined in the Global scope can be accessed anywhere in your code. Global scope exists before you write any code.</p>
   <p>Local scope is the scope within functions or {}, it can only be accessed within that function. If you try and access it outside that function, you console will return "undefined" as it is not defined outside that function (i.e. in the Global scope.)</p>
   <p>When you have functions within functions. For example outerFunction and innerFunction. The outerFunction will not be able to access the variables defined in innerFunction as var in innerFunction are local to innerFunction but innerFunction will be able to access variables in the outerFunction as it is considered global to innerFunction.</p>
+
+</div>
 
   </body>
 
