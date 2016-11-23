@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SCOPE</title>
+      <meta charset="UTF-8">
+      <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+  <h1>SCOPE</h1>
+  <h2>Technical Blog Part Seven</h2>
+  <h3>Terminology: "Learning the Lingo"</h3>
+
+  <strong>Scope</strong>
+  <p> Scope is the context in which values and expressions are "visible," or can be referenced to in your code.</p>
+  <p>If a variable or other expression is not "in the current scope," then it is unavailable for use.</p>
+  <p>In Javascript there is two types of scope: local and global.</p>
+  <p>Variables and expressions defined in the Global scope can be accessed anywhere in your code. Global scope exists before you write any code.</p>
+  <p>Local scope is the scope within functions or {}, it can only be accessed within that function. If you try and access it outside that function, you console will return "undefined" as it is not defined outside that function (i.e. in the Global scope.)</p>
+  <p>When you have functions within functions. For example outerFunction and innerFunction. The outerFunction will not be able to access the variables defined in innerFunction as var in innerFunction are local to innerFunction but innerFunction will be able to access variables in the outerFunction as it is considered global to innerFunction.</p>
+
+  </body>
+
+  <footer>
+      <p>
+        <a href="../tblog.html">Back</a>
+      </p>
+  </footer>
+
+</html>
