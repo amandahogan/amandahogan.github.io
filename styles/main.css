@@ -18,6 +18,11 @@ h4 {
   font-family: 'Amatic SC', cursive;
 }
 
+h5 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
 h6 {
   text-align: right;
   font-family: 'Amatic SC', cursive;
